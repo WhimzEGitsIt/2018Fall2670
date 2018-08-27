@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a65771e873c3c64ca802e34f35bcf26, type: 3}
-  m_Name: New Prefab Data
+  m_Name: BlueDiamond
   m_EditorClassIdentifier: 
   Prefab: {fileID: 1143719472959606, guid: 8ef7d1ebef76c22438cf352d0bf1a232, type: 2}
   SpriteImage: {fileID: 21300000, guid: af6aa48c62200504fb57cbf8cd827cf2, type: 3}
