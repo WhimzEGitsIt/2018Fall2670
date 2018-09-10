@@ -21,6 +21,7 @@
           <e p="HealthBar.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="KillPlayer.cs" t="Include" />
+          <e p="MovePattern.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />
           <e p="PlayerLifes.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />

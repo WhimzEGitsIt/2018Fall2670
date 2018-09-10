@@ -6,9 +6,9 @@ public class FloatInput : FloatData
 
 	public string InputType;
 	
-	void override float Value
+	public override float Value
 	{
-		get { return Input.GetAxis(InputType);}
+		get { return Input.GetAxis(InputType)*value;}
 	}
 	
 }
