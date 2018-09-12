@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11439ea04d03aa246bdea8e52e094cf4, type: 3}
-  m_Name: FloatInput
+  m_Name: Jump4
   m_EditorClassIdentifier: 
-  value: 0
-  InputType: 
+  value: 4
+  InputType: Jump
