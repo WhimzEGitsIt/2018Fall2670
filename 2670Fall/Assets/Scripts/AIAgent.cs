@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -12,10 +13,12 @@ public class AIAgent : MonoBehaviour
 	public Transform PointPost;
 	private Transform finalDestination;
 	private NavMeshAgent agent;
+	public FloatData Speed;
 	
 	private void Start()
 	{
 		agent = GetComponent<NavMeshAgent>();
+		agent.speed = Speed.Value;
 		finalDestination = transform;
 	}
 
@@ -30,7 +33,7 @@ public class AIAgent : MonoBehaviour
 		finalDestination = PointPost;
 	}
 
-	private void Update(Collider other)
+	private void Update()
 	{
 			agent.destination = finalDestination.position;
 	}

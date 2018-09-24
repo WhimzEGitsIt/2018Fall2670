@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: DoubleJump
   m_EditorClassIdentifier: 
   gravity: {fileID: 11400000, guid: 620497135e71c294c839905e445eb31e, type: 2}
-  MoveX: {fileID: 11400000, guid: c96a9041a7dbb7e47a7f3caf8fa8c853, type: 2}
+  MoveX: {fileID: 11400000, guid: 074617c4eb9ae9842aa7a1ca09b5c0d4, type: 2}
   MoveY: {fileID: 11400000, guid: 12f081130e28f7142ad18d2b78be5149, type: 2}
   MoveZ: {fileID: 11400000, guid: 263c081fab5147447b6477d70fb0324c, type: 2}
   RotX: {fileID: 11400000, guid: 263c081fab5147447b6477d70fb0324c, type: 2}

@@ -269,6 +269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Destination: {fileID: 1165054184}
   PointPost: {fileID: 936328732}
+  Speed: {fileID: 11400000, guid: 40c3ad77efa793042b725d7449568446, type: 2}
 --- !u!65 &790025521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -579,7 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09d49615802d66f4c91cc4c166c14b3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pattern: {fileID: 11400000, guid: fd1e4a2319b060442bd88d4b2256aebb, type: 2}
+  Pattern: {fileID: 11400000, guid: b557bd832141c7241adba3fc5ac6bcc8, type: 2}
 --- !u!143 &1165054186
 CharacterController:
   m_ObjectHideFlags: 0
