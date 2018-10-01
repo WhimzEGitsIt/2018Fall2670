@@ -22,6 +22,15 @@
           <e p="FloatInput.cs" t="Include" />
           <e p="ForEachLoops.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
+          <e p="HyperGameScript" t="Include">
+            <e p="Draggable.cs" t="Include" />
+            <e p="Letter.cs" t="Include" />
+            <e p="Letters.cs" t="Include" />
+            <e p="NameID.cs" t="Include" />
+            <e p="ObjectID.cs" t="Include" />
+            <e p="TriggerID.cs" t="Include" />
+            <e p="Word.cs" t="Include" />
+          </e>
           <e p="IfStatements.cs" t="Include" />
           <e p="KillPlayer.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
