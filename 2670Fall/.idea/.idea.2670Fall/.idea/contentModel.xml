@@ -20,7 +20,9 @@
             <e p="MatchID.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
             <e p="ObjectID.cs" t="Include" />
+            <e p="Objects.cs" t="Include" />
             <e p="PerpetualCounter.cs" t="Include" />
+            <e p="Store.cs" t="Include" />
             <e p="Word.cs" t="Include" />
           </e>
         </e>
