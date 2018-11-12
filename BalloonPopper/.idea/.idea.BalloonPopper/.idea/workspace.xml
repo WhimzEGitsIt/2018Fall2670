@@ -26,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Spawner.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Spawner.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding>
                 <marker date="1542057133021" expanded="true" signature="6:114" ph="..." />
                 <marker date="1542057133021" expanded="true" signature="152:727" ph="{...}" />
@@ -44,6 +44,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BalloonKill.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/BalloonKill.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <marker date="1542058506777" expanded="false" signature="6:163" ph="..." />
+                <marker date="1542058506777" expanded="true" signature="206:305" ph="{...}" />
+                <marker date="1542058506777" expanded="true" signature="227:302" ph="{...}" />
+                <marker date="1542058506777" expanded="true" signature="266:298" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -51,6 +66,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BalloonKill.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -58,6 +74,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/BalloonKill.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +143,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="137" y="513" width="1771" height="821" extended-state="0" />
+    <frame x="87" y="497" width="1771" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24956165" />
@@ -172,7 +189,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding>
             <marker date="1542057133021" expanded="true" signature="6:114" ph="..." />
             <marker date="1542057133021" expanded="true" signature="152:727" ph="{...}" />
@@ -181,6 +198,19 @@
             <marker date="1542057133021" expanded="true" signature="489:721" ph="{...}" />
             <marker date="1542057133021" expanded="true" signature="597:718" ph="{...}" />
             <marker date="1542057133021" expanded="true" signature="626:714" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BalloonKill.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1542058506777" expanded="false" signature="6:163" ph="..." />
+            <marker date="1542058506777" expanded="true" signature="206:305" ph="{...}" />
+            <marker date="1542058506777" expanded="true" signature="227:302" ph="{...}" />
+            <marker date="1542058506777" expanded="true" signature="266:298" ph="{...}" />
           </folding>
         </state>
       </provider>
