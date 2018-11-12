@@ -5,8 +5,10 @@
     <e p="C:\Users\10818718\Documents\GitRepo\2018Fall2670\BalloonPopper" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BalloonKill.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="LevelManager.cs" t="Include" />
+          <e p="Spawner.cs" t="Include" />
         </e>
       </e>
       <e p="BalloonPopper.sln" t="IncludeFlat" />

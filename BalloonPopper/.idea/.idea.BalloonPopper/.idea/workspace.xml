@@ -11,16 +11,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LevelManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LevelManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="285">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <marker date="1542047097263" expanded="false" signature="6:113" ph="..." />
-                <marker date="1542047097263" expanded="true" signature="156:333" ph="{...}" />
-                <marker date="1542047097263" expanded="true" signature="183:260" ph="{...}" />
-                <marker date="1542047097263" expanded="true" signature="285:328" ph="{...}" />
+                <marker date="1542047118801" expanded="false" signature="6:113" ph="..." />
+                <marker date="1542047118801" expanded="true" signature="156:342" ph="{...}" />
+                <marker date="1542047118801" expanded="true" signature="183:260" ph="{...}" />
+                <marker date="1542047118801" expanded="true" signature="285:337" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spawner.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+              <folding>
+                <marker date="1542057133021" expanded="true" signature="6:114" ph="..." />
+                <marker date="1542057133021" expanded="true" signature="152:727" ph="{...}" />
+                <marker date="1542057133021" expanded="true" signature="347:468" ph="{...}" />
+                <marker date="1542057133021" expanded="true" signature="383:456" ph="{...}" />
+                <marker date="1542057133021" expanded="true" signature="489:721" ph="{...}" />
+                <marker date="1542057133021" expanded="true" signature="597:718" ph="{...}" />
+                <marker date="1542057133021" expanded="true" signature="626:714" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -32,18 +50,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="150" />
+    <option name="x" value="87" />
+    <option name="y" value="497" />
     <option name="width" value="1771" />
     <option name="height" value="821" />
   </component>
@@ -106,7 +126,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="150" width="1771" height="821" extended-state="0" />
+    <frame x="137" y="513" width="1771" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24956165" />
@@ -138,13 +158,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="285">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <marker date="1542047097263" expanded="false" signature="6:113" ph="..." />
-            <marker date="1542047097263" expanded="true" signature="156:333" ph="{...}" />
-            <marker date="1542047097263" expanded="true" signature="183:260" ph="{...}" />
-            <marker date="1542047097263" expanded="true" signature="285:328" ph="{...}" />
+            <marker date="1542047118801" expanded="false" signature="6:113" ph="..." />
+            <marker date="1542047118801" expanded="true" signature="156:342" ph="{...}" />
+            <marker date="1542047118801" expanded="true" signature="183:260" ph="{...}" />
+            <marker date="1542047118801" expanded="true" signature="285:337" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <marker date="1542057133021" expanded="true" signature="6:114" ph="..." />
+            <marker date="1542057133021" expanded="true" signature="152:727" ph="{...}" />
+            <marker date="1542057133021" expanded="true" signature="347:468" ph="{...}" />
+            <marker date="1542057133021" expanded="true" signature="383:456" ph="{...}" />
+            <marker date="1542057133021" expanded="true" signature="489:721" ph="{...}" />
+            <marker date="1542057133021" expanded="true" signature="597:718" ph="{...}" />
+            <marker date="1542057133021" expanded="true" signature="626:714" ph="{...}" />
           </folding>
         </state>
       </provider>
