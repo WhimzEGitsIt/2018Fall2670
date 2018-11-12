@@ -12,6 +12,7 @@
     <session id="-1448736833">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -109,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatBool.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="195">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <marker date="1536797289336" expanded="false" signature="6:78" ph="..." />
                 <marker date="1536797289336" expanded="true" signature="157:418" ph="{...}" />
@@ -126,7 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatInput.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="30">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding>
                 <marker date="1536797289335" expanded="true" signature="98:216" ph="{...}" />
                 <marker date="1536797289335" expanded="true" signature="158:212" ph="{...}" />
@@ -243,12 +245,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537490557631</updated>
-      <workItem from="1537490560948" duration="2509000" />
+      <workItem from="1537490560948" duration="3134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2509000" />
+    <option name="totallyTimeSpent" value="3134000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -260,8 +262,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-97" y="186" width="1440" height="780" extended-state="1" />
-    <editor active="true" />
+    <frame x="95" y="199" width="1440" height="780" extended-state="1" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -336,30 +337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1535126310242" expanded="false" signature="6:78" ph="..." />
-            <marker date="1535126310242" expanded="true" signature="118:332" ph="{...}" />
-            <marker date="1535126310242" expanded="true" signature="198:205" ph="{...}" />
-            <marker date="1535126310242" expanded="true" signature="260:330" ph="{...}" />
-            <marker date="1535126310242" expanded="true" signature="285:303" ph="{...}" />
-            <marker date="1535126310242" expanded="true" signature="310:327" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1536797289335" expanded="true" signature="98:216" ph="{...}" />
-            <marker date="1536797289335" expanded="true" signature="158:212" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -388,10 +365,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <marker date="1536797289335" expanded="true" signature="98:216" ph="{...}" />
+            <marker date="1536797289335" expanded="true" signature="158:212" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1535126310242" expanded="false" signature="6:78" ph="..." />
+            <marker date="1535126310242" expanded="true" signature="118:332" ph="{...}" />
+            <marker date="1535126310242" expanded="true" signature="198:205" ph="{...}" />
+            <marker date="1535126310242" expanded="true" signature="260:330" ph="{...}" />
+            <marker date="1535126310242" expanded="true" signature="285:303" ph="{...}" />
+            <marker date="1535126310242" expanded="true" signature="310:327" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatBool.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="195">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <marker date="1536797289336" expanded="false" signature="6:78" ph="..." />
             <marker date="1536797289336" expanded="true" signature="157:418" ph="{...}" />
