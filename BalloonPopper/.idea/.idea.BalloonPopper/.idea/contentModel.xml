@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="BalloonKill.cs" t="Include" />
           <e p="DestroyOnClick.cs" t="Include" />
+          <e p="GrandmaScript.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="LevelManager.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />

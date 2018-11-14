@@ -16,7 +16,7 @@ public class BalloonKill : MonoBehaviour {
 
 	//}
 
-	void OnCollisionEnter(Collision other)
+	void OnTriggerEnter2D(Collider2D triggerCollider)
 	{
 		Destroy(gameObject);
 	}

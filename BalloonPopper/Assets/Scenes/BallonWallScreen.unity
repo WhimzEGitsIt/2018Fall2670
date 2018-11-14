@@ -152,6 +152,7 @@ GameObject:
   - component: {fileID: 98087874}
   - component: {fileID: 98087876}
   - component: {fileID: 98087877}
+  - component: {fileID: 98087878}
   m_Layer: 0
   m_Name: GrandmaBlue
   m_TagString: Untagged
@@ -262,6 +263,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &98087878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98087873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1a7dcc459546d54abc4889741671f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &117617829
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,6 +650,7 @@ GameObject:
   - component: {fileID: 858640784}
   - component: {fileID: 858640786}
   - component: {fileID: 858640787}
+  - component: {fileID: 858640788}
   m_Layer: 0
   m_Name: GrandmaPurple
   m_TagString: Untagged
@@ -748,6 +761,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &858640788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 858640783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1a7dcc459546d54abc4889741671f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &926871417
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,6 +879,7 @@ GameObject:
   - component: {fileID: 1195436219}
   - component: {fileID: 1195436222}
   - component: {fileID: 1195436221}
+  - component: {fileID: 1195436223}
   m_Layer: 0
   m_Name: GrandmaGreen
   m_TagString: Untagged
@@ -965,6 +990,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.2, y: 3.2}
   m_EdgeRadius: 0
+--- !u!114 &1195436223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195436218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1a7dcc459546d54abc4889741671f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1482937618
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,6 +1278,7 @@ GameObject:
   - component: {fileID: 2114146371}
   - component: {fileID: 2114146373}
   - component: {fileID: 2114146374}
+  - component: {fileID: 2114146375}
   m_Layer: 0
   m_Name: GrandmaYellow
   m_TagString: Untagged
@@ -1352,6 +1389,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2114146375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2114146370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1a7dcc459546d54abc4889741671f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2118543957
 GameObject:
   m_ObjectHideFlags: 0
