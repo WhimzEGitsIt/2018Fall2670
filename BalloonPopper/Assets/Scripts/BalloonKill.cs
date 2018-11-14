@@ -7,13 +7,17 @@ using UnityEngine;
 public class BalloonKill : MonoBehaviour {
 
 	
-	void Update () {
+	//void Update () {
 
-		if (transform.position.y < - 2.5f)
-		{
-			Destroy(gameObject);
-		}
+		//if (transform.position.y < -4f)
+		//{
+			//Destroy(gameObject);
+		//}
 
+	//}
+
+	void OnCollisionEnter(Collision other)
+	{
+		Destroy(gameObject);
 	}
-
 }
