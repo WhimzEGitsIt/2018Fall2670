@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class GrandmaScript : MonoBehaviour {
+public class GrandmaScript : MonoBehaviour
+{
 
+	public UnityEvent Event;
+	
 	// Use this for initialization
 	void Start () {
 		
@@ -18,7 +22,7 @@ public class GrandmaScript : MonoBehaviour {
 	{
 		if (triggerCollider.tag == "Falling Balloon")
 		{
-			Destroy(gameObject);
+			Event.Invoke();
 		}
 	}
 }

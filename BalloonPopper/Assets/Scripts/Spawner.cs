@@ -10,18 +10,20 @@ public class Spawner : MonoBehaviour
 
 	public GameObject balloonPrefab;
 
-	public float timeBetweenSpawn = 1f;
+	public Vector2 timeBetweenSpawnMinMax;
 	
 	private float timetoSpawn = 2f;
 
 	
 	// Use this for initialization
-	void Update ()
+	public void Update ()
 	{
 
 		if (Time.time >= timetoSpawn)
 		{
 			SpawnBlocks();
+			float timeBetweenSpawn = Mathf.Lerp(timeBetweenSpawnMinMax.y, timeBetweenSpawnMinMax.x, Difficulty.GetDifficultyPercent());
+			
 			timetoSpawn = Time.time + timeBetweenSpawn;
 		}
 		

@@ -6,18 +6,12 @@ using UnityEngine;
 
 public class BalloonKill : MonoBehaviour {
 
-	
-	//void Update () {
-
-		//if (transform.position.y < -4f)
-		//{
-			//Destroy(gameObject);
-		//}
-
-	//}
-
 	void OnTriggerEnter2D(Collider2D triggerCollider)
 	{
-		Destroy(gameObject);
+		if (triggerCollider.tag == "Grandma")
+		{
+			Destroy(gameObject);
+		}
+		
 	}
 }

@@ -13,7 +13,7 @@ public class Health : MonoBehaviour
 	public Sprite fullHeart;
 	public Sprite emptyHeart;
 
-	void Update()
+	public void TakeHealth()
 	{
 		if (health > numOfhearts)
 		{

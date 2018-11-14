@@ -153,9 +153,10 @@ GameObject:
   - component: {fileID: 98087876}
   - component: {fileID: 98087877}
   - component: {fileID: 98087878}
+  - component: {fileID: 98087879}
   m_Layer: 0
   m_Name: GrandmaBlue
-  m_TagString: Untagged
+  m_TagString: Grandma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -274,6 +275,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1a7dcc459546d54abc4889741671f1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &98087879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98087873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f23a89c98a26934cbbf02570adc6f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  numOfhearts: 0
+  hearts: []
+  fullHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
 --- !u!1 &117617829
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,9 +673,10 @@ GameObject:
   - component: {fileID: 858640786}
   - component: {fileID: 858640787}
   - component: {fileID: 858640788}
+  - component: {fileID: 858640789}
   m_Layer: 0
   m_Name: GrandmaPurple
-  m_TagString: Untagged
+  m_TagString: Grandma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -772,6 +795,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1a7dcc459546d54abc4889741671f1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &858640789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 858640783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f23a89c98a26934cbbf02570adc6f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  numOfhearts: 0
+  hearts: []
+  fullHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
 --- !u!1 &926871417
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,9 +924,10 @@ GameObject:
   - component: {fileID: 1195436222}
   - component: {fileID: 1195436221}
   - component: {fileID: 1195436223}
+  - component: {fileID: 1195436224}
   m_Layer: 0
   m_Name: GrandmaGreen
-  m_TagString: Untagged
+  m_TagString: Grandma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1001,6 +1046,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1a7dcc459546d54abc4889741671f1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 117617830}
+        m_MethodName: TakeHealth
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1195436224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195436218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f23a89c98a26934cbbf02570adc6f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  numOfhearts: 0
+  hearts: []
+  fullHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
 --- !u!1 &1482937618
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,7 +1326,7 @@ MonoBehaviour:
   - {fileID: 926871418}
   balloonPrefab: {fileID: 1496051445134398, guid: 14c25eebb34b80a48bb2b0dd72eb532d,
     type: 2}
-  timeBetweenSpawn: 1
+  timeBetweenSpawnMinMax: {x: 0.1, y: 1}
 --- !u!4 &1888813564
 Transform:
   m_ObjectHideFlags: 0
@@ -1257,7 +1334,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1888813562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.65, z: 0}
+  m_LocalPosition: {x: 0, y: 8.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1482937619}
@@ -1279,9 +1356,10 @@ GameObject:
   - component: {fileID: 2114146373}
   - component: {fileID: 2114146374}
   - component: {fileID: 2114146375}
+  - component: {fileID: 2114146376}
   m_Layer: 0
   m_Name: GrandmaYellow
-  m_TagString: Untagged
+  m_TagString: Grandma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1400,6 +1478,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1a7dcc459546d54abc4889741671f1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &2114146376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2114146370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f23a89c98a26934cbbf02570adc6f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  numOfhearts: 0
+  hearts: []
+  fullHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
 --- !u!1 &2118543957
 GameObject:
   m_ObjectHideFlags: 0
