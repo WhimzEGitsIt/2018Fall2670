@@ -6,7 +6,8 @@ public class DestroyOnClick : MonoBehaviour {
 
 	void OnMouseDown()
 	{
-		Debug.Log("Something Clicked");
+		//SoundManager.PlaySound("waterDrop");
+		ScoreScript.scoreValue += 10;
 		Destroy(gameObject);
 	}
 	

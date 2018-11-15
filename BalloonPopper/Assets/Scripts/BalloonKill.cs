@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization.Formatters;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BalloonKill : MonoBehaviour {
 
@@ -10,6 +11,7 @@ public class BalloonKill : MonoBehaviour {
 	{
 		if (triggerCollider.tag == "Grandma")
 		{
+			SoundManager.PlaySound("punch");
 			Destroy(gameObject);
 		}
 		

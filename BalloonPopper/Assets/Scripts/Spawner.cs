@@ -21,6 +21,7 @@ public class Spawner : MonoBehaviour
 
 		if (Time.time >= timetoSpawn)
 		{
+			SoundManager.PlaySound("woosh");
 			SpawnBlocks();
 			float timeBetweenSpawn = Mathf.Lerp(timeBetweenSpawnMinMax.y, timeBetweenSpawnMinMax.x, Difficulty.GetDifficultyPercent());
 			

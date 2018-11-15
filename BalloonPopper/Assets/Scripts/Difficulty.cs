@@ -9,7 +9,7 @@ public static class Difficulty {
 
 	public static float GetDifficultyPercent()
 	{
-		return Mathf.Clamp01(Time.time / secondsToMaxDifficutly);
+		return Mathf.Clamp01(Time.timeSinceLevelLoad / secondsToMaxDifficutly);
 	}
 	
 }
