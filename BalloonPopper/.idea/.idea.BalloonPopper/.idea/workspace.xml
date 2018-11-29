@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <marker date="1542252287614" expanded="false" signature="6:114" ph="..." />
                 <marker date="1542252287614" expanded="true" signature="152:904" ph="{...}" />
@@ -173,7 +173,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyOnClick.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -298,12 +298,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542247788942</updated>
-      <workItem from="1542247800355" duration="4688000" />
+      <workItem from="1542247800355" duration="5323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4688000" />
+    <option name="totallyTimeSpent" value="5323000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,6 +436,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BalloonKill.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <marker date="1542252287576" expanded="true" signature="6:185" ph="..." />
+            <marker date="1542252287576" expanded="true" signature="228:400" ph="{...}" />
+            <marker date="1542252287576" expanded="true" signature="281:398" ph="{...}" />
+            <marker date="1542252287576" expanded="true" signature="324:392" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyOnClick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <marker date="1542252544223" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542252544223" expanded="true" signature="124:252" ph="{...}" />
+            <marker date="1542252544223" expanded="true" signature="146:248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SoundManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -451,23 +476,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BalloonKill.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <marker date="1542252287576" expanded="true" signature="6:185" ph="..." />
-            <marker date="1542252287576" expanded="true" signature="228:400" ph="{...}" />
-            <marker date="1542252287576" expanded="true" signature="281:398" ph="{...}" />
-            <marker date="1542252287576" expanded="true" signature="324:392" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <marker date="1542252287614" expanded="false" signature="6:114" ph="..." />
             <marker date="1542252287614" expanded="true" signature="152:904" ph="{...}" />
@@ -476,18 +488,6 @@
             <marker date="1542252287614" expanded="true" signature="666:898" ph="{...}" />
             <marker date="1542252287614" expanded="true" signature="774:895" ph="{...}" />
             <marker date="1542252287614" expanded="true" signature="803:891" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyOnClick.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <marker date="1542252544223" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542252544223" expanded="true" signature="124:252" ph="{...}" />
-            <marker date="1542252544223" expanded="true" signature="146:248" ph="{...}" />
           </folding>
         </state>
       </provider>
