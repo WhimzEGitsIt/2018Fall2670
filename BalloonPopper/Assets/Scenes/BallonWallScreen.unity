@@ -1447,7 +1447,7 @@ MonoBehaviour:
   - {fileID: 926871418}
   balloonPrefab: {fileID: 1496051445134398, guid: 14c25eebb34b80a48bb2b0dd72eb532d,
     type: 2}
-  timeBetweenSpawnMinMax: {x: 0.2, y: 2}
+  timeBetweenSpawnMinMax: {x: 0.2, y: 3}
 --- !u!4 &1888813564
 Transform:
   m_ObjectHideFlags: 0
