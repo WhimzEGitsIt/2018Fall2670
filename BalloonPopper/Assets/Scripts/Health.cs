@@ -44,8 +44,5 @@ public class Health : MonoBehaviour
 		}
 	}
 
-	public void HurtPlayer(int damageToTake)
-	{
-		health -= damageToTake;
-	}
+	
 }
