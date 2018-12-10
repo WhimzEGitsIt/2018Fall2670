@@ -12,6 +12,8 @@
           <e p="Difficulty.cs" t="Include" />
           <e p="GrandmaScript.cs" t="Include" />
           <e p="Health.cs" t="Include" />
+          <e p="HealthPlayer.cs" t="Include" />
+          <e p="HUD.cs" t="Include" />
           <e p="LevelManager.cs" t="Include" />
           <e p="ScoreScript.cs" t="Include" />
           <e p="SoundManager.cs" t="Include" />
