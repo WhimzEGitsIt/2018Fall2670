@@ -8,7 +8,12 @@ using UnityEngine.UI;
 public class BalloonKill : MonoBehaviour
 {
 
+	private ScoreScript score;
 
+	private void Start()
+	{
+		score = GameObject.FindObjectOfType<ScoreScript>();
+	}
 
 	void OnTriggerEnter2D(Collider2D triggerCollider)
 	{
@@ -28,6 +33,7 @@ public class BalloonKill : MonoBehaviour
 			Debug.Log(i);
 			hp.positions[i] = new GrandmaPositions(hp.positions[i].position, false);
 			Debug.Log("cp2");
+			score.Cash.Value += 20;
 			Destroy(triggerCollider.gameObject);
 			Destroy(gameObject);
 		}

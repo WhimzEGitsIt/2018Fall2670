@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEditor.Experimental.UIElements;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 using Random = UnityEngine.Random;
 
 
@@ -24,6 +25,7 @@ public class HealthPlayer : MonoBehaviour
 		Random.InitState(Mathf.RoundToInt(Time.realtimeSinceStartup));
 		GameObject.FindObjectOfType<ScoreScript>().Cash.Value = 0;
 		curHealth = maxHealth;
+		
 	}
 
 	void Update()
