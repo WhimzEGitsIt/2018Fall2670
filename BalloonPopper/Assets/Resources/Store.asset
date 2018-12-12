@@ -12,10 +12,6 @@ MonoBehaviour:
   m_Name: Store
   m_EditorClassIdentifier: 
   Item: {fileID: 1404978948025494, guid: 8a41d5f4b17e4a940b3dbb670f03dd31, type: 2}
-  Purchased:
-  - {fileID: 1404978948025494, guid: 8a41d5f4b17e4a940b3dbb670f03dd31, type: 2}
-  - {fileID: 1404978948025494, guid: 8a41d5f4b17e4a940b3dbb670f03dd31, type: 2}
-  - {fileID: 1404978948025494, guid: 8a41d5f4b17e4a940b3dbb670f03dd31, type: 2}
-  - {fileID: 1404978948025494, guid: 8a41d5f4b17e4a940b3dbb670f03dd31, type: 2}
-  ItemValue: 1
+  Purchased: []
+  ItemValue: 200
   Cash: {fileID: 11400000, guid: eb7e20653dc9e4d44801125cc1729c95, type: 2}

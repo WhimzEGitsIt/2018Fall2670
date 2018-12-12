@@ -14,12 +14,19 @@ public class HUD : MonoBehaviour
 
 	void Start()
 	{
-		health = GameObject.FindGameObjectWithTag("Grandma").GetComponent<HealthPlayer>();
+		health = GameObject.FindObjectOfType<HealthPlayer>();
+		//GameObject h = GameObject.FindGameObjectWithTag("Grandma");
+		
+		//Debug.Log(h.name);
+		//health = h.GetComponent<HealthPlayer>();
+		Debug.Log("Health: " + health.maxHealth) ;
 	}
 
 	void Update()
 	{
-		HeartUI.sprite = HeartSprites [health.curHealth];
+		Debug.Log(health.curHealth);
+		HeartUI.sprite = HeartSprites [health.maxHealth - health.curHealth];
+		
 	}
 	
 

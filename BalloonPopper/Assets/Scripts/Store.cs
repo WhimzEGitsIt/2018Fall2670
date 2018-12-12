@@ -13,7 +13,7 @@ public class Store : ScriptableObject
 	
 	public void Purchase()
 	{
-		if (Cash.Value < ItemValue) return;
+		if (Cash.Value < ItemValue || Purchased.Count >= 4) return;
 		Purchased.Add(Item);
 		Cash.Value -= ItemValue;
 	}
