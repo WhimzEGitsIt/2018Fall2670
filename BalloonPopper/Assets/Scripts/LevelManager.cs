@@ -17,6 +17,10 @@ public class LevelManager : MonoBehaviour
 		
 		Application.Quit();
 	}
-	
 
+	public void GoBack()
+	{
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -1);
+	}
+	
 }
