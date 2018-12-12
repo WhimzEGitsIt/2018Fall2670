@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Falling Balloon
   - Grandma
+  - Umbrella
   layers:
   - Default
   - TransparentFX
