@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.UIElements;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
@@ -12,7 +13,7 @@ public class HealthPlayer : MonoBehaviour
 	
 	public Store store;
 
-	public List<Transform> positions;  
+	public List<GrandmaPositions> positions;  
 	
 	public int curHealth;
 
@@ -20,6 +21,7 @@ public class HealthPlayer : MonoBehaviour
 
 	void Start()
 	{
+		Random.InitState(Mathf.RoundToInt(Time.realtimeSinceStartup));
 		GameObject.FindObjectOfType<ScoreScript>().Cash.Value = 0;
 		curHealth = maxHealth;
 	}
@@ -60,8 +62,31 @@ public class HealthPlayer : MonoBehaviour
 
 		
 		store.Purchased.RemoveAt(0);
-		int i = Random.Range(0, 3);
-		Transform t = positions[i];
-		GameObject.Instantiate((GameObject)store.Item, t);
+		int i;
+		do
+		{
+			i = Random.Range(0, 4);
+		} while (positions[i].inuse);
+		
+		Transform t = positions[i].position;
+		GameObject.Instantiate((GameObject)store.Item, t.position, t.rotation);
+		positions[i] = new GrandmaPositions(positions[i].position, true);
+	}
+
+	
+	
+}
+
+
+[Serializable]
+public struct GrandmaPositions
+{
+	public Transform position;
+	public bool inuse;
+
+	public GrandmaPositions(Transform t, bool b)
+	{
+		position = t;
+		inuse = b;
 	}
 }

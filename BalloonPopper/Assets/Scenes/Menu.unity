@@ -987,7 +987,7 @@ Transform:
   m_LocalScale: {x: 0.6560097, y: 0.6560096, z: 0.6560096}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1824163735
 GameObject:
@@ -1000,7 +1000,7 @@ GameObject:
   - component: {fileID: 1824163738}
   - component: {fileID: 1824163737}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1321,5 +1321,5 @@ Transform:
   m_LocalScale: {x: 0.4539001, y: 0.45390004, z: 0.45390004}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
