@@ -5,7 +5,7 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
 
-	public static AudioClip waterDrop, punch, woosh;
+	public static AudioClip waterDrop, punch, woosh, ding;
 	static AudioSource audioSrc;
 
 	// Use this for initialization
@@ -15,6 +15,7 @@ public class SoundManager : MonoBehaviour
 		waterDrop = Resources.Load<AudioClip>("waterDrop");
 		punch = Resources.Load<AudioClip>("punch");
 		woosh = Resources.Load<AudioClip>("woosh");
+		ding = Resources.Load<AudioClip>("ding");
 
 		audioSrc = GetComponent<AudioSource>();
 
@@ -37,6 +38,9 @@ public class SoundManager : MonoBehaviour
 				break;
 			case "woosh":
 				audioSrc.PlayOneShot(woosh);
+				break;
+			case "ding":
+				audioSrc.PlayOneShot(ding);
 				break;
 			
 		}

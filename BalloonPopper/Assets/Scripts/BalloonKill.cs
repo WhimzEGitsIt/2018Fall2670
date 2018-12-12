@@ -21,6 +21,7 @@ public class BalloonKill : MonoBehaviour
 		
 		if (triggerCollider.tag == "Umbrella")
 		{
+			SoundManager.PlaySound("ding");
 			HealthPlayer hp = FindObjectOfType<HealthPlayer>();
 			Debug.Log("cp1");
 			int i = hp.positions.FindIndex(gp => gp.position.position.Equals(triggerCollider.gameObject.transform.position));
